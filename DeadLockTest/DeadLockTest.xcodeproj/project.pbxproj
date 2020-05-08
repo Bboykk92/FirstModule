@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82037892243F19BE004A1BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82037891243F19BE004A1BC6 /* AppDelegate.m */; };
+		82037895243F19BE004A1BC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82037894243F19BE004A1BC6 /* SceneDelegate.m */; };
+		82037898243F19BE004A1BC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82037897243F19BE004A1BC6 /* ViewController.m */; };
+		8203789B243F19BE004A1BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82037899243F19BE004A1BC6 /* Main.storyboard */; };
+		8203789D243F19C1004A1BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8203789C243F19C1004A1BC6 /* Assets.xcassets */; };
+		820378A0243F19C1004A1BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8203789E243F19C1004A1BC6 /* LaunchScreen.storyboard */; };
+		820378A3243F19C1004A1BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 820378A2243F19C1004A1BC6 /* main.m */; };
+		820378AD243F19C2004A1BC6 /* DeadLockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820378AC243F19C2004A1BC6 /* DeadLockTestTests.m */; };
+		820378B8243F19C2004A1BC6 /* DeadLockTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820378B7243F19C2004A1BC6 /* DeadLockTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820378A9243F19C2004A1BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82037885243F19BE004A1BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8203788C243F19BE004A1BC6;
+			remoteInfo = DeadLockTest;
+		};
+		820378B4243F19C2004A1BC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82037885243F19BE004A1BC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8203788C243F19BE004A1BC6;
+			remoteInfo = DeadLockTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8203788D243F19BE004A1BC6 /* DeadLockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadLockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82037890243F19BE004A1BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82037891243F19BE004A1BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82037893243F19BE004A1BC6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		82037894243F19BE004A1BC6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		82037896243F19BE004A1BC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82037897243F19BE004A1BC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8203789A243F19BE004A1BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8203789C243F19C1004A1BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8203789F243F19C1004A1BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		820378A1243F19C1004A1BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820378A2243F19C1004A1BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		820378A8243F19C2004A1BC6 /* DeadLockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadLockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820378AC243F19C2004A1BC6 /* DeadLockTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadLockTestTests.m; sourceTree = "<group>"; };
+		820378AE243F19C2004A1BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820378B3243F19C2004A1BC6 /* DeadLockTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadLockTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820378B7243F19C2004A1BC6 /* DeadLockTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadLockTestUITests.m; sourceTree = "<group>"; };
+		820378B9243F19C2004A1BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8203788A243F19BE004A1BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820378A5243F19C2004A1BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820378B0243F19C2004A1BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82037884243F19BE004A1BC6 = {
+			isa = PBXGroup;
+			children = (
+				8203788F243F19BE004A1BC6 /* DeadLockTest */,
+				820378AB243F19C2004A1BC6 /* DeadLockTestTests */,
+				820378B6243F19C2004A1BC6 /* DeadLockTestUITests */,
+				8203788E243F19BE004A1BC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8203788E243F19BE004A1BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8203788D243F19BE004A1BC6 /* DeadLockTest.app */,
+				820378A8243F19C2004A1BC6 /* DeadLockTestTests.xctest */,
+				820378B3243F19C2004A1BC6 /* DeadLockTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8203788F243F19BE004A1BC6 /* DeadLockTest */ = {
+			isa = PBXGroup;
+			children = (
+				82037890243F19BE004A1BC6 /* AppDelegate.h */,
+				82037891243F19BE004A1BC6 /* AppDelegate.m */,
+				82037893243F19BE004A1BC6 /* SceneDelegate.h */,
+				82037894243F19BE004A1BC6 /* SceneDelegate.m */,
+				82037896243F19BE004A1BC6 /* ViewController.h */,
+				82037897243F19BE004A1BC6 /* ViewController.m */,
+				82037899243F19BE004A1BC6 /* Main.storyboard */,
+				8203789C243F19C1004A1BC6 /* Assets.xcassets */,
+				8203789E243F19C1004A1BC6 /* LaunchScreen.storyboard */,
+				820378A1243F19C1004A1BC6 /* Info.plist */,
+				820378A2243F19C1004A1BC6 /* main.m */,
+			);
+			path = DeadLockTest;
+			sourceTree = "<group>";
+		};
+		820378AB243F19C2004A1BC6 /* DeadLockTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				820378AC243F19C2004A1BC6 /* DeadLockTestTests.m */,
+				820378AE243F19C2004A1BC6 /* Info.plist */,
+			);
+			path = DeadLockTestTests;
+			sourceTree = "<group>";
+		};
+		820378B6243F19C2004A1BC6 /* DeadLockTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				820378B7243F19C2004A1BC6 /* DeadLockTestUITests.m */,
+				820378B9243F19C2004A1BC6 /* Info.plist */,
+			);
+			path = DeadLockTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8203788C243F19BE004A1BC6 /* DeadLockTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820378BC243F19C2004A1BC6 /* Build configuration list for PBXNativeTarget "DeadLockTest" */;
+			buildPhases = (
+				82037889243F19BE004A1BC6 /* Sources */,
+				8203788A243F19BE004A1BC6 /* Frameworks */,
+				8203788B243F19BE004A1BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeadLockTest;
+			productName = DeadLockTest;
+			productReference = 8203788D243F19BE004A1BC6 /* DeadLockTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820378A7243F19C2004A1BC6 /* DeadLockTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820378BF243F19C2004A1BC6 /* Build configuration list for PBXNativeTarget "DeadLockTestTests" */;
+			buildPhases = (
+				820378A4243F19C2004A1BC6 /* Sources */,
+				820378A5243F19C2004A1BC6 /* Frameworks */,
+				820378A6243F19C2004A1BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820378AA243F19C2004A1BC6 /* PBXTargetDependency */,
+			);
+			name = DeadLockTestTests;
+			productName = DeadLockTestTests;
+			productReference = 820378A8243F19C2004A1BC6 /* DeadLockTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		820378B2243F19C2004A1BC6 /* DeadLockTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820378C2243F19C2004A1BC6 /* Build configuration list for PBXNativeTarget "DeadLockTestUITests" */;
+			buildPhases = (
+				820378AF243F19C2004A1BC6 /* Sources */,
+				820378B0243F19C2004A1BC6 /* Frameworks */,
+				820378B1243F19C2004A1BC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820378B5243F19C2004A1BC6 /* PBXTargetDependency */,
+			);
+			name = DeadLockTestUITests;
+			productName = DeadLockTestUITests;
+			productReference = 820378B3243F19C2004A1BC6 /* DeadLockTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82037885243F19BE004A1BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "安仲强";
+				TargetAttributes = {
+					8203788C243F19BE004A1BC6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					820378A7243F19C2004A1BC6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8203788C243F19BE004A1BC6;
+					};
+					820378B2243F19C2004A1BC6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8203788C243F19BE004A1BC6;
+					};
+				};
+			};
+			buildConfigurationList = 82037888243F19BE004A1BC6 /* Build configuration list for PBXProject "DeadLockTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82037884243F19BE004A1BC6;
+			productRefGroup = 8203788E243F19BE004A1BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8203788C243F19BE004A1BC6 /* DeadLockTest */,
+				820378A7243F19C2004A1BC6 /* DeadLockTestTests */,
+				820378B2243F19C2004A1BC6 /* DeadLockTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8203788B243F19BE004A1BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820378A0243F19C1004A1BC6 /* LaunchScreen.storyboard in Resources */,
+				8203789D243F19C1004A1BC6 /* Assets.xcassets in Resources */,
+				8203789B243F19BE004A1BC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820378A6243F19C2004A1BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820378B1243F19C2004A1BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82037889243F19BE004A1BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82037898243F19BE004A1BC6 /* ViewController.m in Sources */,
+				82037892243F19BE004A1BC6 /* AppDelegate.m in Sources */,
+				820378A3243F19C1004A1BC6 /* main.m in Sources */,
+				82037895243F19BE004A1BC6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820378A4243F19C2004A1BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820378AD243F19C2004A1BC6 /* DeadLockTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820378AF243F19C2004A1BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820378B8243F19C2004A1BC6 /* DeadLockTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820378AA243F19C2004A1BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8203788C243F19BE004A1BC6 /* DeadLockTest */;
+			targetProxy = 820378A9243F19C2004A1BC6 /* PBXContainerItemProxy */;
+		};
+		820378B5243F19C2004A1BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8203788C243F19BE004A1BC6 /* DeadLockTest */;
+			targetProxy = 820378B4243F19C2004A1BC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82037899243F19BE004A1BC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8203789A243F19BE004A1BC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8203789E243F19C1004A1BC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8203789F243F19C1004A1BC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820378BA243F19C2004A1BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		820378BB243F19C2004A1BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820378BD243F19C2004A1BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadLockTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ann.DeadLockTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		820378BE243F19C2004A1BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadLockTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ann.DeadLockTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		820378C0243F19C2004A1BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadLockTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ann.DeadLockTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeadLockTest.app/DeadLockTest";
+			};
+			name = Debug;
+		};
+		820378C1243F19C2004A1BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadLockTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ann.DeadLockTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeadLockTest.app/DeadLockTest";
+			};
+			name = Release;
+		};
+		820378C3243F19C2004A1BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadLockTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ann.DeadLockTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeadLockTest;
+			};
+			name = Debug;
+		};
+		820378C4243F19C2004A1BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeadLockTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ann.DeadLockTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeadLockTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82037888243F19BE004A1BC6 /* Build configuration list for PBXProject "DeadLockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820378BA243F19C2004A1BC6 /* Debug */,
+				820378BB243F19C2004A1BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820378BC243F19C2004A1BC6 /* Build configuration list for PBXNativeTarget "DeadLockTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820378BD243F19C2004A1BC6 /* Debug */,
+				820378BE243F19C2004A1BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820378BF243F19C2004A1BC6 /* Build configuration list for PBXNativeTarget "DeadLockTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820378C0243F19C2004A1BC6 /* Debug */,
+				820378C1243F19C2004A1BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820378C2243F19C2004A1BC6 /* Build configuration list for PBXNativeTarget "DeadLockTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820378C3243F19C2004A1BC6 /* Debug */,
+				820378C4243F19C2004A1BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82037885243F19BE004A1BC6 /* Project object */;
+}
